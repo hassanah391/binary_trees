@@ -4,7 +4,7 @@
  * binary_tree_delete - Deletes an entire binary tree.
  * @tree: Pointer to the root node of the tree to delete.
  *
- * Description: The function performs a post-order traversal to delete each node.
+ * Description: performs a post-order traversal to delete each node.
  */
 void binary_tree_delete(binary_tree_t *tree)
 {
