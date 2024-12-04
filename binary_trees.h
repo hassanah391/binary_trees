@@ -70,4 +70,3 @@ heap_t *array_to_heap(int *array, size_t size);
 int heap_extract(heap_t **root);
 
 #endif
- 0-binary_tree_node.c
