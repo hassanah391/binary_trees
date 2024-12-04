@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * height - measures the height of a tree
+ * height - measure the height of a tree
  *
  * @tree: tree root
  * Return: height
