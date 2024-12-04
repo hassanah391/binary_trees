@@ -1,8 +1,4 @@
-#include "binary_files.h"
-
 #include "binary_trees.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 /**
  * heap_extract - Extracts the root node of a Max Binary Heap.
@@ -12,7 +8,7 @@
  */
 int heap_extract(heap_t **root)
 {
-    heap_t *node, *last;
+    heap_t *node;
     int value, last_value;
 
     if (!root || !*root)
